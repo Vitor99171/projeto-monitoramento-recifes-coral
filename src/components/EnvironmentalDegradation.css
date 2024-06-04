@@ -1,0 +1,27 @@
+/* src/components/EnvironmentalDegradation.css */
+
+.environmental-degradation {
+  background: rgba(0, 92, 151, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.environmental-degradation h2 {
+  color: #00aaff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.environmental-degradation p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.environmental-degradation p:last-child {
+  margin-bottom: 0;
+}

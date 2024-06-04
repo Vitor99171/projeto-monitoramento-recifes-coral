@@ -1,0 +1,74 @@
+/* SpeciesIdentification.css */
+
+.species-identification {
+  background: rgba(0, 92, 151, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.custom-file-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border: 2px dashed #e8e8e8;
+  background-color: rgba(0, 92, 151, 0.7);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: rgba(0, 170, 255, 0.7);
+}
+
+.custom-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-file-upload .icon svg {
+  height: 80px;
+  fill: #e8e8e8;
+}
+
+.custom-file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-file-upload .text span {
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.custom-file-upload input {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.history {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.history img {
+  max-width: 150px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
